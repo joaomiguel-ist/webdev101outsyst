@@ -46,15 +46,18 @@ SQL Injection
 TPMF
 ======
 
-1) Criar no registo  conceito de cliente j· existente na base de dados: Eu posso identificar um cliente pelo n∫ identicaÁ„o (campo novo). Se j· existir completa o formulario, sen„o, cria um registo novo. Preciso de ver o first name e last name juntos: Ex: Jo„o Caldas
+1) Criar no registo  conceito de cliente j√° existente na base de dados: 
+Eu posso identificar um cliente pelo n¬∫ identica√ß√£o (campo novo). Se j√° existir completa o formulario, sen√£o, cria um registo novo. 
+Preciso de ver o first name e last name juntos: Ex: Jo√£o Caldas
 
 2) 
-- Criar mÈtodo para popular a base de dados com 10.000 bookings, com rooms random e cada booking com um room service random.
-- N„o vale fazer overbooking  !
+- Criar m√©todo para popular a base de dados com 10.000 bookings, com rooms random e cada booking com um room service random.
+- N√£o vale fazer overbooking  !
 - Mas vale fazer bookings de menos de 1 dia
 - Arranjar forma de "inventar" guests
 
-3) fazer um gr·fico na p·gina de entrada com as rooms services mais utilizadas (pie chart) podendo filtrar por ano e mÍs (combo box) e podendo "picar" os room services que quero filtrar - USAR ADV QUERY
+3) fazer um gr√°fico na p√°gina de entrada com as rooms services mais utilizadas (pie chart) 
+podendo filtrar por ano e m√™s (combo box) e podendo "picar" os room services que quero filtrar - USAR ADV QUERY
 
 
 
