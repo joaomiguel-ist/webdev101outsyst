@@ -1,0 +1,66 @@
+SQL Intro
+SQL Syntax
+SQL Select
+SQL Select Distinct
+SQL Where
+SQL And, Or, Not
+SQL Order By
+SQL Insert Into
+SQL Null Values
+SQL Update
+SQL Delete
+SQL Select Top
+SQL Min and Max
+SQL Count, Avg, Sum
+SQL Like
+SQL Wildcards
+SQL In
+SQL Between
+SQL Aliases
+SQL Joins
+SQL Inner Join
+SQL Left Join
+SQL Right Join
+SQL Full Join
+SQL Self Join
+SQL Union
+SQL Group By
+SQL Having
+SQL Exists
+SQL Any, All
+SQL Select Into
+SQL Insert Into Select
+SQL Null Functions
+SQL Comments
+SQL Constraints
+SQL Not Null
+SQL Unique
+SQL Primary Key
+SQL Foreign Key
+SQL Index
+SQL Auto Increment
+SQL Dates
+SQL Views
+SQL Injection
+
+TPMF
+======
+
+1) Criar no registo  conceito de cliente já existente na base de dados: Eu posso identificar um cliente pelo nº identicação (campo novo). Se já existir completa o formulario, senão, cria um registo novo. Preciso de ver o first name e last name juntos: Ex: João Caldas
+
+2) 
+- Criar método para popular a base de dados com 10.000 bookings, com rooms random e cada booking com um room service random.
+- Não vale fazer overbooking  !
+- Mas vale fazer bookings de menos de 1 dia
+- Arranjar forma de "inventar" guests
+
+3) fazer um gráfico na página de entrada com as rooms services mais utilizadas (pie chart) podendo filtrar por ano e mês (combo box) e podendo "picar" os room services que quero filtrar - USAR ADV QUERY
+
+
+
+
+
+
+
+
+
