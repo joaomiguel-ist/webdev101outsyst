@@ -8,18 +8,8 @@ Learn how to build incredible, responsive web experiences. See how to connect th
 - Não vale fazer overbooking  !
 - Mas vale fazer bookings de menos de 1 dia (aplicação já aceita)
 - Arranjar forma de "inventar" guests <<<<--- https://github.com/miguelpardal/random-name-generator
-
-
-(
-- ... 10.000 bookings, com rooms random e cada booking com um room service random. -> impossível porque é dito que não podem ser adicionados room services caso o quarto não esteja checked-in
-)
-
+(- ... 10.000 bookings, com rooms random e cada booking com um room service random. -> impossível porque é dito que não podem ser adicionados room services caso o quarto não esteja checked-in)
 
 3) fazer um gráfico na página de entrada com as rooms services mais utilizadas (pie chart) podendo filtrar por ano e mês (combo box) e podendo "picar" os room services que quero filtrar - USAR ADV QUERY
 
-4)
-grafico barras
-eixo x - rooms
-exio y - somatorio bookings para esses quartos
-filtro da data (ano e mês)
-flag: com ou sem room services
+4) grafico de barras, rooms no eixo do x, somatorio bookings para esses quartos no eixo do y. filtrar por ano e mês. flag (com ou sem room services
