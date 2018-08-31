@@ -1,18 +1,13 @@
-
-1)
-filtro de data e estado - done
-
-
-2)
+12)
 grafico de barras
 
-filtro por ano. digo o ano e da os somatorios por mês nesse ano
+filtro por ano. digo o ano e da os somatorios por mÃªs nesse ano
 
 YY: nr de bookings
 XX: meses "Jan" "Fev" ... "Dec" -> tem de aparecer todos
 
-total de bookings por mês , excepto os cancelled
-mesmo que mês tem zero bookings tem de aparecer.
+total de bookings por mÃªs , excepto os cancelled
+mesmo que mÃªs tem zero bookings tem de aparecer.
 
 "jan" "fev" "mar" tem de aparecer na query.
 
@@ -57,6 +52,3 @@ select sum(Qty) as bookingsTotal, Year(dateOrdered) as year
   ,isnull(sum(case when month(dateOrdered) = 12 then Qty end), 0) Dec
 from Table1
 group by Year(dateOrdered)
-
-
-
