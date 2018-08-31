@@ -1,0 +1,62 @@
+
+1)
+filtro de data e estado - done
+
+
+2)
+grafico de barras
+
+filtro por ano. digo o ano e da os somatorios por mês nesse ano
+
+YY: nr de bookings
+XX: meses "Jan" "Fev" ... "Dec" -> tem de aparecer todos
+
+total de bookings por mês , excepto os cancelled
+mesmo que mês tem zero bookings tem de aparecer.
+
+"jan" "fev" "mar" tem de aparecer na query.
+
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+
+-------
+SCHEMA:
+-------
+
+CREATE TABLE Table1
+	([bookingsTotal] int, [Qty] int, [dateOrdered] datetime)
+;
+	
+INSERT INTO Table1
+	([bookingsTotal], [Qty], [dateOrdered])
+VALUES
+	(1, 2, '2008-10-10 00:00:00'),
+	(1, 1, '2008-11-10 00:00:00'),
+	(1, 2, '2009-10-10 00:00:00'),
+	(2, 3, '2009-10-12 00:00:00'),
+	(1, 1, '2009-10-15 00:00:00'),
+	(2, 2, '2009-11-15 00:00:00')
+;
+
+------
+QUERY:
+------
+
+select sum(Qty) as bookingsTotal, Year(dateOrdered) as year
+  ,isnull(sum(case when month(dateOrdered) = 1 then Qty end), 0) Jan
+  ,isnull(sum(case when month(dateOrdered) = 2 then Qty end), 0) Feb 
+  ,isnull(sum(case when month(dateOrdered) = 3 then Qty end), 0) Mar
+  ,isnull(sum(case when month(dateOrdered) = 4 then Qty end), 0) Apr
+  ,isnull(sum(case when month(dateOrdered) = 5 then Qty end), 0) May
+  ,isnull(sum(case when month(dateOrdered) = 6 then Qty end), 0) Jun
+  ,isnull(sum(case when month(dateOrdered) = 7 then Qty end), 0) Jul
+  ,isnull(sum(case when month(dateOrdered) = 8 then Qty end), 0) Aug
+  ,isnull(sum(case when month(dateOrdered) = 9 then Qty end), 0) Sep
+  ,isnull(sum(case when month(dateOrdered) = 10 then Qty end), 0) Oct
+  ,isnull(sum(case when month(dateOrdered) = 11 then Qty end), 0) Nov
+  ,isnull(sum(case when month(dateOrdered) = 12 then Qty end), 0) Dec
+from Table1
+group by Year(dateOrdered)
+
+
+
