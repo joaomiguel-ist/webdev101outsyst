@@ -17,9 +17,7 @@ Stage2:
 2) fazer um grafico de barras, filtrando por ano. nesse ano aparecem os somatorios de bookings por mês nesse ano
 YY: nr de bookings
 XX: meses "Jan" "Fev" ... "Dec" -> tem de aparecer todos
-
 total de bookings por mês , excepto os cancelled mesmo que mês tem zero bookings tem de aparecer.
-
 JAN fev mar tem de aparecer na query.
 
 Stage3:
