@@ -24,8 +24,8 @@ JAN fev mar tem de aparecer na query.
 
 Stage3:
 
-1)exercicio de exposicao -> getavailableroom via webservice
+  1)exercicio de exposicao -> getavailableroom via webservice
 
-2)exercicio de consumo -> tempo em rest e em soap (só imagem do sol, nuvens ou chuva)
+  2)exercicio de consumo -> tempo em rest e em soap (só imagem do sol, nuvens ou chuva)
 uma de cada lado da pagina (rest esquerda , soap direita)
 weather é invocado no preparation
