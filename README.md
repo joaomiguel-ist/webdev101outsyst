@@ -21,3 +21,11 @@ XX: meses "Jan" "Fev" ... "Dec" -> tem de aparecer todos
 total de bookings por mês , excepto os cancelled mesmo que mês tem zero bookings tem de aparecer.
 
 JAN fev mar tem de aparecer na query.
+
+Stage3:
+
+exercicio de exposicao -> getavailableroom via webservice
+
+exercicio de consumo -> tempo em rest e em soap (só imagem do sol, nuvens ou chuva)
+uma de cada lado da pagina (rest esquerda , soap direita)
+weather é invocado no preparation
